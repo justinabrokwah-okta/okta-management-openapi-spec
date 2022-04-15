@@ -25,7 +25,7 @@ info:
   license:
     name: Apache-2.0
     url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
-  version: 2.12.0
+  version: 2.12.1
 externalDocs:
   description: Find more info here
   url: 'https://developer.okta.com/docs/api/getting_started/design_principles.html'
@@ -2076,11 +2076,11 @@ paths:
       operationId: listAuthorizationServerPolicyRules
       parameters:
         - in: path
-          name: policyId
+          name: authServerId
           required: true
           type: string
         - in: path
-          name: authServerId
+          name: policyId
           required: true
           type: string
       produces:
@@ -2105,11 +2105,11 @@ paths:
       operationId: createAuthorizationServerPolicyRule
       parameters:
         - in: path
-          name: policyId
+          name: authServerId
           required: true
           type: string
         - in: path
-          name: authServerId
+          name: policyId
           required: true
           type: string
         - in: body
@@ -2138,11 +2138,11 @@ paths:
       operationId: deleteAuthorizationServerPolicyRule
       parameters:
         - in: path
-          name: policyId
+          name: authServerId
           required: true
           type: string
         - in: path
-          name: authServerId
+          name: policyId
           required: true
           type: string
         - in: path
@@ -2167,11 +2167,11 @@ paths:
       operationId: getAuthorizationServerPolicyRule
       parameters:
         - in: path
-          name: policyId
+          name: authServerId
           required: true
           type: string
         - in: path
-          name: authServerId
+          name: policyId
           required: true
           type: string
         - in: path
@@ -2198,11 +2198,11 @@ paths:
       operationId: updateAuthorizationServerPolicyRule
       parameters:
         - in: path
-          name: policyId
+          name: authServerId
           required: true
           type: string
         - in: path
-          name: authServerId
+          name: policyId
           required: true
           type: string
         - in: path
