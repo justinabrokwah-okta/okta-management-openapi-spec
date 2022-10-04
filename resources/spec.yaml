@@ -12124,6 +12124,8 @@ definitions:
         type: array
       unknownUserAction:
         type: string
+      uiSchemaId:
+        type: string
     type: object
     x-okta-tags:
       - Policy
